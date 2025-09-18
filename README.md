@@ -2,7 +2,7 @@
 
 Welcome to my **Data Analytics & AI Portfolio**!  
 This repository showcases my work in **Data Analytics, Python, and AI Automation**.  
-Each project includes datasets, dashboards, and Jupyter notebooks as proof of work.  
+Each project includes datasets, dashboards, and Google Colab notebooks as proof of work.  
 
 ---
 
