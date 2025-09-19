@@ -1,0 +1,88 @@
+{
+  "name": "Weekly Sales → OpenAI Report (Portfolio)",
+  "nodes": [
+    {
+      "id": "node-google-1",
+      "name": "Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 2,
+      "position": [150, 300],
+      "parameters": {
+        "operation": "read",
+        "sheetId": "YOUR_SHEET_ID",
+        "range": "Sheet1!A1:D100"
+      }
+    },
+    {
+      "id": "node-transform-1",
+      "name": "Data Transformation",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [400, 300],
+      "parameters": {
+        "values": {
+          "boolean": [],
+          "number": [],
+          "string": [
+            {
+              "name": "report_payload",
+              "value": "={{$json | jsonStringify}}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "node-openai-1",
+      "name": "OpenAI ChatGPT",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [700, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "none",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "Bearer YOUR_OPENAI_API_KEY" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonParameters": true,
+        "bodyParametersJson": "{\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    { \"role\": \"user\", \"content\": \"Summarize the following sales data into a short weekly report with KPIs, top performers and insights:\\n{{$json.report_payload}}\" }\n  ],\n  \"temperature\": 0.2,\n  \"max_tokens\": 400\n}"
+      }
+    },
+    {
+      "id": "node-report-1",
+      "name": "Generate Report",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [950, 300],
+      "parameters": {
+        "functionCode": "return items.map(i => {\n  // The OpenAI response will be in i.json.choices[0].message.content\n  const aiText = i.json?.choices?.[0]?.message?.content || i.json?.choices?.[0]?.text || '';\n  return { json: { report_text: aiText } };\n});"
+      }
+    },
+    {
+      "id": "node-email-1",
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [1200, 300],
+      "parameters": {
+        "fromEmail": "your_email@example.com",
+        "toEmail": "recipient@example.com",
+        "subject": "Weekly Sales Report (Automated)",
+        "text": "{{$json.report_text}}"
+      }
+    }
+  ],
+  "connections": {
+    "Google Sheets": { "main": [[{ "node": "Data Transformation", "type": "main", "index": 0 }]] },
+    "Data Transformation": { "main": [[{ "node": "OpenAI ChatGPT", "type": "main", "index": 0 }]] },
+    "OpenAI ChatGPT": { "main": [[{ "node": "Generate Report", "type": "main", "index": 0 }]] },
+    "Generate Report": { "main": [[{ "node": "Send Email", "type": "main", "index": 0 }]] }
+  }
+}
