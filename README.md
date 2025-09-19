@@ -9,7 +9,7 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 ## 🚀 Projects
 
 ### 1. Sales Performance Dashboard
-- Dataset: [sales_data.csv](Sales-Dashboard/sales_data (1).csv)  
+- Dataset: [sales_data.csv](Sales-Dashboard/sales_data_(1).csv)  
 - Dashboard: ![Sales Dashboard](Sales-Dashboard/sales_dashboard_full.png)  
 - Notebook: [sales_analysis.ipynb](Sales-Dashboard/sales_analysis.ipynb)  
 
@@ -52,7 +52,7 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 - Sales Dashboard:[Sales Dashboard](Automation-Workflow/Dashboard/sales_dashboard.png)
 - Automation Notebook: [automation_workflow.ipynb](Automation-Workflow/Notebook/automation_workflow.ipynb)
 - Simulation Notebook: [automation_simulation.ipynb](Automation-Workflow/Notebook/automation_simulation.ipynb)
-- Workflow image: [workflow image](Automation-Workflow/Workflow/Workflow_image.png)
+- Workflow image: [workflow image](Automation-Workflow/Workflow/workflow_image.png)
 - Workflow Json: [workflow Json](Automation-Workflow/Workflow/Automation_Workflow.json)
 
 **Highlights:**  
