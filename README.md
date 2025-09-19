@@ -52,7 +52,7 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 - Sales Dashboard:[Sales Dashboard](Automation-Workflow/Dashboard/sales_dashboard.png)
 - Automation Notebook: [automation_workflow.ipynb](Automation-Workflow/Notebook/automation_workflow.ipynb)
 - Simulation Notebook: [automation_simulation.ipynb](Automation-Workflow/Notebook/automation_simulation.ipynb)
-- Workflow image: [workflow image](Automation-Workflow/Workflow/workflow_image.png)
+- Workflow image: [workflow image](Automation-Workflow/Workflow/Workflow_image.png)
 - Workflow Json: [workflow Json](Automation-Workflow/Workflow/Automation_Workflow.json)
 
 **Highlights:**  
