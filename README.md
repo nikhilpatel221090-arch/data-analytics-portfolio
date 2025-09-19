@@ -9,7 +9,7 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 ## 🚀 Projects
 
 ### 1. Sales Performance Dashboard
-- Dataset: [sales_data.csv](Sales-Dashboard/sales_data(1).csv)  
+- Dataset: [sales_data.csv](Sales-Dashboard/sales_data (1).csv)  
 - Dashboard: ![Sales Dashboard](Sales-Dashboard/sales_dashboard_full.png)  
 - Notebook: [sales_analysis.ipynb](Sales-Dashboard/sales_analysis.ipynb)  
 
