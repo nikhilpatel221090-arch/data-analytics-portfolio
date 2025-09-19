@@ -46,9 +46,14 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 ---
 
 ### 4. AI Automation Workflow
-- Dataset: [automation_data.csv](Automation-Workflow/automation_data.csv)  
-- Workflow Dashboard: ![Automation Dashboard](Automation-Workflow/automation_dashboard_full.png)  
-- Simulation Notebook: [automation_simulation.ipynb](Automation-Workflow/automation_simulation.ipynb)  
+- Dataset: [automation_data.csv](Automation-Workflow/Data/automation_data.csv)
+- Dataset: [weekly_sales_rich.csv](Automation-Workflow/Data/weekly_sales_rich.csv)
+- Workflow Dashboard:[Automation Dashboard](Automation-Workflow/Dashboard/automation_dashboard_full.png)
+- Sales Dashboard:[Sales Dashboard](Automation-Workflow/Dashboard/sales_dashboard.png)
+- Automation Notebook: [automation_workflow.ipynb](Automation-Workflow/Notebook/automation_workflow.ipynb)
+- Simulation Notebook: [automation_simulation.ipynb](Automation-Workflow/Notebook/automation_simulation.ipynb)
+- Workflow image: [workflow image](Automation-Workflow/Workflow/Workflow_image.png)
+- Workflow Json: [workflow Json](Automation-Workflow/Workflow/Automation_Workflow.json)
 
 **Highlights:**  
 - Automated Google Sheets → ChatGPT → Email  
@@ -59,8 +64,8 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 
 ## 📞 Contact Me
 📧 Email: nikhilpatel221090@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/nikhil-patel-29976b1b/)  
-🔗 [Upwork](https://www.upwork.com/freelancers/~01f09f411754d6bd21)  
+🔗 [LinkedIn] https://www.linkedin.com/in/nikhil-patel-29976b1b 
+🔗 [Upwork] https://www.upwork.com/freelancers/~01f09f411754d6bd21  
 
 💡 *Looking to turn your data into insights or automate workflows? Let’s connect!*  
 
