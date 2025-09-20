@@ -14,9 +14,9 @@ Each project includes datasets, dashboards, and Google Colab notebooks as proof 
 **Solution**: Interactive dashboard (Python + Power BI style) showing sales trends, profit, and KPIs.  
 **Result**: Enables managers to track performance & profitability.
 
-📂 Dataset: [sales_data.csv](Sales-Dashboard/sales_data.csv)  
-📊 Dashboard: ![Sales Dashboard](Sales-Dashboard/sales_dashboard_full.png)  
-📘 Notebook: [sales_analysis.ipynb](Sales-Dashboard/sales_analysis.ipynb)  
+📂 Dataset: [sales_data.csv](Sales_Dashboard/sales_data.csv)  
+📊 Dashboard: ![Sales Dashboard](Sales_Dashboard/sales_dashboard_full.png)  
+📘 Notebook: [sales_analysis.ipynb](Sales_Dashboard/sales_analysis.ipynb)  
 
 **Highlights:**  
 - Sales trends by month 📈  
