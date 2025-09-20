@@ -70,11 +70,11 @@ Google Sheets → Python (KPIs & Charts) → AI Summary → Email Report.
 
 📂 Dataset: [automation_data.csv](Automation-Workflow/Data/automation_data.csv)  
 📂 Dataset: [weekly_sales_rich.csv](Automation-Workflow/Data/weekly_sales_rich.csv)  
-📊 Workflow Dashboard:[Automation Dashboard](Automation-Workflow/Dashboard/automation_dashboard_full.png)  
-📊 Sales Dashboard:[Sales Dashboard](Automation-Workflow/Dashboard/sales_dashboard.png)  
+📊 Workflow Dashboard:![Automation Dashboard](Automation-Workflow/Dashboard/automation_dashboard_full.png)  
+📊 Sales Dashboard:![Sales Dashboard](Automation-Workflow/Dashboard/sales_dashboard.png)  
 📘 Automation Notebook: [automation_workflow.ipynb](Automation-Workflow/Notebook/automation_workflow.ipynb)  
-📘 Simulation Notebook: [automation_simulation.ipynb](Automation-Workflow/Notebook/automation_simulation.ipynb) 
-📊 Workflow image: [workflow image](Automation-Workflow/Workflow/Workflow_image.png)  
+📘 Simulation Notebook: [automation_simulation.ipynb](Automation-Workflow/Notebook/automation_simulation.ipynb)  
+📊 Workflow image: ![workflow image](Automation-Workflow/Workflow/Workflow_image.png)  
 ⚙️ Workflow Json: [workflow Json](Automation-Workflow/Workflow/Automation_Workflow.json)  
 
 **Highlights:**  
