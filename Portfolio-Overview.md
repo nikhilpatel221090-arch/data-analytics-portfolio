@@ -88,7 +88,7 @@ Google Sheets → Python (KPIs & Charts) → AI Summary → Email Report.
 ## 📞 Contact Me
 📧 Email: nikhilpatel221090@gmail.com  
 🔗 [LinkedIn] https://www.linkedin.com/in/nikhil-patel-29976b1b  
-🔗 [Upwork] https://www.upwork.com/freelancers/~01f09f411754d6bd21  
+🔗 [Upwork] https://www.upwork.com/freelancers/~01fc359d1b6de847be    
 
 💡 *Looking to turn your data into insights or automate workflows? Let’s connect!*  
 
