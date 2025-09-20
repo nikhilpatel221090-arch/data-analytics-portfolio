@@ -1,12 +1,13 @@
 # 📊 Data Analytics & AI Portfolio – Nikhil Patel
 
-Welcome to my **Data Analytics & AI Portfolio**!  
+Welcome to my **Portfolio**! 
+I help businesses turn raw data into **actionable insights**, **interactive dashboards**, and **automated workflows**.  
 This repository showcases my work in **Data Analytics, Python, and AI Automation**.  
-Each project includes datasets, dashboards, and Google Colab notebooks as proof of work.  
+Each project includes **datasets**, **dashboards**, and **Google Colab notebooks** as proof of work.  
 
 ---
 
-## 🚀 Projects
+## 🚀 PROJECTS
 
 1️⃣ **Sales Performance Dashboard (Power BI Style)**
 
